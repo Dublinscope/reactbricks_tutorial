@@ -18,6 +18,12 @@ const Header: React.FC = () => (
             <Link href="/about-us">
               <a className="text-gray-500 hover:text-pink-700">About us</a>
             </Link>
+            <Link href="/hey-101">
+              <a className="text-gray-500 hover:text-pink-700">Hey 101</a>
+            </Link>
+            <Link href="/coucou">
+              <a className="text-gray-500 hover:text-pink-700">Coucou</a>
+            </Link>
           </div>
         </div>
         <Link href="/admin" prefetch={false}>
